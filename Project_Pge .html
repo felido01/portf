@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IBM HR Employee Attrition Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 36px;
+        }
+        header p {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+        nav {
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+            font-size: 18px;
+            border-radius: 5px;
+        }
+        nav a:hover {
+            background-color: #3f4a8b;
+        }
+        nav a.selected {
+            background-color: #d3d3d3;
+            color: black;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: white;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        h2 {
+            color: #333;
+            font-size: 28px;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+        .embed-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+        iframe {
+            width: 100%;
+            height: 500px;
+            border: none;
+            border-radius: 8px;
+        }
+        .cta-button {
+            background-color: #5c6bc0;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            text-align: center;
+            display: inline-block;
+            margin-top: 20px;
+        }
+        .cta-button:hover {
+            background-color: #3f4a8b;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+        }
+        .quote {
+            font-style: italic;
+            color: #555;
+            margin: 30px 0;
+        }
+        .skills-tools {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+        }
+        .skills-tools div {
+            flex: 1;
+        }
+        .bubble {
+            background-color: #eef0f7;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            margin: 10px 0;
+        }
+        .skills-tools div h3 {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>HR Employee Attrition Dashboard</h1>
+    <p>Explore data-driven insights to tackle employee turnover effectively!</p>
+    <!-- <nav>
+        <a href="#project1" class="selected">Project Overview</a>
+        <a href="#project2">Skills & Tools Used</a>
+        <a href="#project3">Live Dashboard</a>
+        <a href="#project4">Questions And Answer</a>
+        <a href="#project5">Project 5</a>
+        <a href="#project5">Conclusion</a>
+    </nav> -->
+</header>
+
+<section id="project1">
+    <h2>Project Overview</h2>
+    <p><strong>Summary:</strong>This interactive Power BI dashboard provides in-depth insights into employee attrition data from IBM HR Dataset. It is designed to empower HR managers and business leaders with actionable data to reduce turnover and improve employee satisfaction.</p>
+    <p><strong>Project Scope:</strong> High employee turnover leads to significant costs, such as recruitment and training expenses. This dashboard is specifically designed to assist HR teams in identifying the key trends and factors influencing attrition, providing data-driven insights to implement targeted retention strategies and reduce those costs.</p>
+
+    <p><strong>Dataset Overview:</strong>The dataset used for this Employee Attrition Dashboard contains employee details and attrition-related factors. <a href="https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset">Click here </a>to view and download the dataset from Kaggle.</p>
+</section>
+
+<section id="project2">
+    <h2>Skills & Tools Used</h2>
+    <div class="skills-tools">
+        <div class="bubble">
+            <h3>Skills</h3>
+            <ul>
+                <li>Data Analysis</li>
+                <li>Storytelling with Data</li>
+                <li>Data Visualization</li>
+                <li>Exploratory Data Analysis(EDA)</li>
+                <li>HR Analytics</li>
+            </ul>
+        </div>
+        <div class="bubble">
+            <h3>Tools</h3>
+            <ul>
+                <li>Power BI for Designing visuals and charts</li>
+                <li>Excel for Quick Analysis and EDA</li>
+                <!-- <li>SQL</li> -->
+                <li>Figma for Designing Suitable Background</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section id="project3">
+    <h2>Interactive Power BI Dashboard</h2>
+    <div class="embed-container">
+        <iframe title="My_2nd_Dashboard" width="1140" height="541.25" src="https://app.powerbi.com/reportEmbed?reportId=53cda70a-db29-43c3-80cd-440f9cdc4121&autoAuth=true&ctid=a36e1a13-c829-4154-8635-f2516711db50" frameborder="0" allowFullScreen="true"></iframe>
+    </div>
+    <p><strong>Take a closer look!</strong> Click on the visual elements to explore deeper insights and discover hidden patterns in the data.</p>
+</section>
+<section id="project4">
+    <h2>Questions And Answers</h2>
+    <h3>Abstract</h3>
+    <p>This Scetion Contains the Question that are potentially asked  :</p>
+    <div class="space-y-8">
+        <div>
+            <h3 class="text-2xl font-semibold">1. General Attrition Analysis</h3>
+            <ul class="list-disc ml-6">
+                <li>What percentage of employees have left the company?</li>
+                Answer: According to the insights from my dashboard,<b>16.12%</b>  of employees left the organization, <br><p></p>
+                <li>How does the attrition rate vary across different age groups?</li>
+                Answer: The Young Employees has the hghest turnover rate
+                <li>What is the distribution of attrition across different job roles?</li>
+            </ul>
+            <div class="mt-4 bg-gray-100 p-4 rounded-lg">Answer: </div>
+        </div>
+
+        <div>
+            <h3 class="text-2xl font-semibold">2. Employee Demographics & Attrition</h3>
+            <ul class="list-disc ml-6">
+                <li>Do younger or older employees have a higher attrition rate?</li>
+                <li>How does gender affect attrition? Do males or females leave more?</li>
+                <li>Is there a correlation between marital status and attrition? (e.g., single vs. married)</li>
+            </ul>
+            <div class="mt-4 bg-gray-100 p-4 rounded-lg">Answer: </div>
+        </div>
+
+        <div>
+            <h3 class="text-2xl font-semibold">3. Job-Related Factors</h3>
+            <ul class="list-disc ml-6">
+                <li>Which job roles have the highest attrition?</li>
+                <li>How does attrition vary by Job Level and Job Role?</li>
+                <li>Does job satisfaction impact attrition?</li>
+            </ul>
+            <div class="mt-4 bg-gray-100 p-4 rounded-lg">Answer: </div>
+        </div>
+
+        <div>
+            <h3 class="text-2xl font-semibold">4. Work-Life Balance & Overtime</h3>
+            <ul class="list-disc ml-6">
+                <li>Does working overtime contribute to higher attrition?</li>
+                <li>Do employees with a poor work-life balance leave more often?</li>
+                <li>What is the effect of distance from home on attrition?</li>
+            </ul>
+            <div class="mt-4 bg-gray-100 p-4 rounded-lg">Answer: </div>
+        </div>
+
+        <div>
+            <h3 class="text-2xl font-semibold">5. Salary & Compensation</h3>
+            <ul class="list-disc ml-6">
+                <li>How does Monthly Income affect attrition?</li>
+                <li>Do employees with stock options stay longer?</li>
+                <li>Is there a link between salary hikes (percent salary hike) and attrition?</li>
+            </ul>
+            <div class="mt-4 bg-gray-100 p-4 rounded-lg">Answer: </div>
+        </div>
+
+        <div>
+            <h3 class="text-2xl font-semibold">6. Career Growth & Promotion</h3>
+            <ul class="list-disc ml-6">
+                <li>Does lack of career advancement (promotion in last 5 years) lead to higher attrition?</li>
+                <li>Are employees with higher education levels more likely to leave?</li>
+                <li>Is there a trend between years in current role and attrition?</li>
+            </ul>
+            <div class="mt-4 bg-gray-100 p-4 rounded-lg">Answer: </div>
+        </div>
+
+        <div>
+            <h3 class="text-2xl font-semibold">7. Managerial Influence</h3>
+            <ul class="list-disc ml-6">
+                <li>Do employees with low relationship satisfaction with their manager leave more?</li>
+                <li>How does manager satisfaction impact attrition?</li>
+                <li>Is high attrition concentrated in specific departments or managers?</li>
+            </ul>
+            <div class="mt-4 bg-gray-100 p-4 rounded-lg">Answer: </div>
+        </div>
+
+        <div>
+            <h3 class="text-2xl font-semibold">8. Performance & Work Experience</h3>
+            <ul class="list-disc ml-6">
+                <li>How does performance rating relate to attrition?</li>
+                <li>Do employees with more years of experience stay longer?</li>
+                <li>Is there a connection between training opportunities and retention?</li>
+            </ul>
+            <div class="mt-4 bg-gray-100 p-4 rounded-lg">Answer: </div>
+        </div>
+    </div>
+</div>
+
+
+</section>
+
+<section id="project4">
+    <h2>Results and Insights</h2>
+    <h3>Abstract</h3>
+    <p>The attrition percentage compared to that of no attrition is fortunately very low. Analysis focuses primarily on the factors that contribute to attrition. This approach helps in identifying the most impactful aspects affecting employee turnover and guiding strategic HR interventions.</p>
+    <p>The key findings from this dashboard are:</p>
+    <ul>
+        <li><strong>Which factors have the most significant impact on employee attrition rates:</strong> <br>
+            The analysis revealed that factors such as job satisfaction, work-life balance, and tenure at the company are the leading causes of employee attrition. Employees with lower satisfaction scores and shorter tenures were more likely to leave the company. The insights show the importance of focusing on these areas to improve retention rates.
+        </li><br><br>
+        <li><strong>Correlation between employee satisfaction and retention rates:</strong>
+            A strong negative correlation was found between employee satisfaction and attrition. Employees who reported higher job satisfaction were less likely to leave. This insight underscores the importance of enhancing employee satisfaction through improved workplace policies, benefits, and engagement strategies.
+        </li><br><br>
+        <li><strong>Attrition distribution across departments and job roles:</strong>
+            By examining the attrition rates across different departments and job roles, I found that the research and development department has the highest turnover rate and the job Role with the highest attrition is laboratory technician which is also under research and development  department while human resources department has relatively low attrition. The  sales executive role is also struggling with high turnover rate which is under the sales department. This information allows HR to focus retention efforts on the most vulnerable departments and job roles.
+        </li><br><br>
+        <li><strong>Targeted areas for HR improvement to reduce turnover:</strong>
+            The dashboard highlighted key areas for improvement, including leadership training, employee recognition programs, and better work-life balance initiatives. By addressing these areas, HR can implement strategies to reduce employee dissatisfaction and turnover, particularly among high-risk groups such as new hires or employees nearing retirement.
+        </li><br><br>
+        <li><strong>Impact of compensation and benefits on attrition:</strong>
+            The data revealed that employees with competitive salaries and benefits were significantly less likely to leave. This finding reinforces the importance of fair compensation policies and continuous evaluation of employee benefits packages.
+        </li>
+    </ul>
+</section>
+
+<section id="project5">
+    <h2>What Others Are Saying</h2>
+    <p class="quote">“This dashboard makes it incredibly easy to visualize and act on employee attrition data, helping us make better HR decisions.” – HR Manager at IBM</p>
+</section>
+
+<section>
+    <h2>Conclusion</h2>
+    <p>This project showcases my ability to utilize Power BI for powerful data analysis and visualization. The insights gained from this dashboard can directly influence HR strategies and drive better employee retention efforts. By making data accessible and understandable, I aim to help organizations make informed decisions that positively impact their workforce.</p>
+    <button class="cta-button" onclick="window.location.href='mailto:your.email@example.com';">Get in Touch</button>
+</section>
+
+<footer>
+    <p>Contact: [Your Name] | [Your Email]</p>
+</footer>
+
+</body>
+</html>

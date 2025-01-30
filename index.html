@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>My Website</title>
+</head>
+
+<body>
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero">
+            <h1><span>F</span>elix <span>I</span>dowu</h1>
+          </a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="#hero" data-after="Home">Home</a></li>
+            <li><a href="#skills" data-after="Home">Skills</a></li>
+            <li><a href="#services" data-after="Service">Certification</a></li>
+            <li><a href="#projects" data-after="Projects">Projects</a></li>
+            <li><a href="#about" data-after="About">About</a></li>
+            <li><a href="#contact" data-after="Contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
+
+
+  <!-- Hero Section  -->
+  <section id="hero">
+    <div class="hero container">
+      <div>
+        <h1>Hello, <span></span></h1>
+        <h1>My Name is <span></span></h1>
+        <h1>Felix <span></span></h1>
+        <a href="#projects" type="button" class="cta">Portfolio</a>
+      </div>
+    </div>
+  </section>
+  <!-- End Hero Section  -->
+
+  <!-- Service Section -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
+
+    #skills {
+        /* background-color: #f3f4f6; */
+        padding: 12rem 1rem 3rem; /* Increased top padding for space before title */
+        font-family: 'Inter', sans-serif;
+        text-align: center;
+    }
+    #skills h2 {
+        font-size: 2rem;
+        font-weight: 700;
+        color: #1f2937;
+        margin-bottom: 2rem;
+    }
+    .skills-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, auto);
+    gap: 3rem; /* Increased gap for more space between bubbles */
+    justify-content: center;
+    max-width: 380px;
+    margin: 0 auto;
+}
+    /* #ffffff */
+    .skill-bubble {
+    background: #f3f4f6;
+    padding: 1.5rem 1rem; /* Increased padding for height */
+    border-radius: 25px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    font-size: 1.2rem; /* Increased font size */
+    font-weight: 500;
+    color: #374151;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    text-align: center;
+    width: 380px; /* Reduced width */
+    margin: 0 auto; /* Centered bubbles */
+}
+    .skill-bubble:hover {
+        transform: translateY(-5px);
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.15);
+    }
+    @media (max-width: 768px) {
+        .skills-container {
+            grid-template-columns: 1fr;
+        }
+    }
+</style>
+
+<section id="skills">
+  <h1 class="section-title">Sk<span>il</span>ls</h1>
+
+    <div class="skills-container">
+        <div class="skill-bubble">Exploratory Data Analysis (EDA)</div>
+        <div class="skill-bubble">Data Cleaning & Transformation</div>
+        <div class="skill-bubble">Statistical Analysis(descriptive and inferential Statistics)</div>
+        <div class="skill-bubble">Data Visualization (Matplotlib, Seaborn, Power BI)</div>
+        <div class="skill-bubble">Python (Pandas, NumPy, Scikit-learn)</div>
+        <div class="skill-bubble">SQL (PostgreSQL)</div>
+        <div class="skill-bubble">Power Query</div>
+        <div class="skill-bubble">Spreadsheet(Google Sheet , Excel)</div>
+        <div class="skill-bubble">Git & Version Control</div>
+        <div class="skill-bubble">Jupyter Notebook, Google Colab</div>
+    </div>
+</section>
+
+
+  <section id="services">
+    <div class="services container">
+      <div class="service-top">
+        <h1 class="section-title">Certif<span>ic</span>ations</h1>
+        <p>Explore my verified achievements that showcase my expertise and dedication to professional growth. Each certification includes a direct link to its official verification, ensuring transparency and authenticity in my skills and qualifications</p>
+      </div>
+      <div class="service-bottom">
+        <div class="service-item">
+          <div class="icon"><a id="lol" href="https://drive.google.com/file/d/1AOfnzKIl31urTXEaN93ZbMx9FPXwvPb6/view?usp=drivesdk"><img src="https://img.icons8.com/?size=100&id=17949&format=png&color=000000" /></div>
+          <h2>Google Data Analytics</h2>
+          <p>
+            I earned the Google Data Analytics Certificate online through Coursera, where I developed essential skills in data cleaning, visualization, SQL, and R programming. The program focused on real-world applications, teaching me how to analyze and interpret data using tools like Google Sheets, Tableau, and spreadsheets. Through hands-on projects and case studies, I gained practical experience in making data-driven decisions.</p></a>
+        </div>
+        <div class="service-item">
+          <div class="icon"><a id="lol" href="https://drive.google.com/file/d/1AWNB6lY3h0wLNOMMlBOn-FYBtK5HGq1z/view?usp=drivesdk"><img src="./meta (1).png" /></div>
+          <h2>Meta Data Analytics</h2>
+          <p>I earned the Meta Data Analyst Certificate online through Coursera, where I developed proficiency in SQL, Python, and data visualization. This program provided in-depth training in data querying, dashboard creation, and analytical reporting using tools such as Excel and Python. Through hands-on projects and real-world case studies, I gained valuable experience in transforming complex data into actionable business insights.</p></a>
+        </div>
+        <div class="service-item">
+          <div class="icon"><a id="lol" href="https://drive.google.com/file/d/16GxcOm5z0UQ2bWHhYHWhhXlWz1TjO6WR/view?usp=drivesdk"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHP9EKlff9awOJZ0nAbZDzjw5mhKEKoehc7w&s" /></div>
+          <h2>Data Science Internship</h2>
+          <p>I earned the Data Science Internship Certificate from CodSoft, where I worked with real datasets, applying data analysis, Exploratory Data Analysis, visualization, and machine learning using Python. Through hands-on projects like Titanic Survival Prediction, Iris Flower Classificaion and Credit Card Fraud Detection, I gained experience in Exploratory Data Analysis and building predictive models</p></a>
+        </div>
+        <div class="service-item">
+          </a><div class="icon"><a id="lol" href="https://drive.google.com/file/d/1AQ9UuZ02sHePAy05MnEv9wrkstnvw0WY/view?usp=drivesdk"><img src="https://img.icons8.com/?size=100&id=17949&format=png&color=000000" /></div>
+          <h2>Business Intelligence</h2>
+          <p>I earned the Google Business Intelligence Certificate online through Coursera, where I built skills in data modeling, SQL, and business intelligence tools. The program focused on structuring data for analysis, designing dashboards, and generating reports using platforms like BigQuery, Tableau, and spreadsheets. Through hands-on projects and case studies, I gained experience in leveraging data to support strategic decision-making</p></a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Service Section -->
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="projects container">
+      <div class="projects-header">
+        <h1 class="section-title">Recent <span>Projects</span></h1>
+      </div>
+      <div class="all-projects">
+        <div class="project-item">
+          <div class="project-info">
+          <a  id="my_add" class="lov" href=""><h1><u>Project 1</u></h1>
+            <h2><u>Sales Performance Analytics</u></h2>
+
+            <p>Analyzed healthcare data to uncover trends in patient demographics, medical conditions, and hospital costs. The project focused on identifying patterns in treatment costs, patient age groups, gender, and hospital performance. Through data cleaning, exploratory analysis, and visualizations, the project provided key insights for optimizing resource allocation and improving patient care strategies.</p></a>
+          </div>
+          <div class="project-img">
+            <img src="./img-1.png" alt="img"> 
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <a  id="my_add" class="lov" href="http://127.0.0.1:5500/portfoliobywebcogvid/Project_Pge%20.html"><u> <h1>Project 2</h1></u>
+            <u><h2>HR Employee Attrition Analytics</h2></u>
+            <p>Employee attrition is a critical concern for businesses, as high turnover rates can lead to increased costs, loss of expertise, and reduced productivity. This project aims to analyze factors influencing employee attrition using data-driven insights, helping organizations develop strategies to improve employee retention.</p></a>
+          </div>
+          <div class="project-img">
+            <img src="./img-1.png" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+           <u><a class="lov" id="my_add" href=""><h1>Project 3</h1>
+            <h2>Sales Performance Dashboard</h2></u> 
+            <p>Developed a Power BI dashboard to analyze sales, profit, and customer data, providing actionable insights for business decisions. The dashboard tracked regional performance, product trends, and customer segments, improving reporting efficiency and supporting data-driven strategies.</p></a>
+          </div>
+          <div class="project-img">
+            <img src="./img-1.png" alt="img">
+          </div>
+        </div>
+        <!-- 1</div> -->
+      </div>
+    </div>
+  </section>
+  <!-- End Projects Section -->
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="about container">
+      <div class="col-left">
+        <div class="about-img">
+          <img src="./img-2.png" alt="img">
+        </div>
+      </div>
+      <div class="col-right">
+        <h1 class="section-title">About <span>me</span></h1>
+        <h2>A Data Analyst</h2>
+        <p>
+          I am a Data Analyst skilled in SQL, Python, and Power BI, with a proven ability to transform raw data into actionable insights. I specialize in analyzing and visualizing data across finance, marketing, and operations to uncover trends, optimize processes, and deliver solutions aligned with business goals. My expertise spans data analysis, problem-solving, and crafting impactful visualizations to drive informed decision-making and measurable outcomes</p>
+        <a href="#" class="cta">Download Resume</a>
+      </div>
+    </div>
+  </section>
+  <!-- End About Section -->
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="contact container">
+      <div>
+        <h1 class="section-title">Contact <span>info</span></h1>
+      </div>
+      <div class="contact-items">
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png" /></div>
+          <div class="contact-info">
+            <h1>Phone</h1>
+            <h2>+234 813 8623 055</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="./gmail.png" /></div>
+          <div class="contact-info">
+            <h1>Email</h1>
+            <a href="mailto:felixidowu.01@gmail.com"><h2>felixidowu.01@gmail.com</h2>
+            </a>
+          </div>
+          
+        </div>
+       <div class="contact-item">
+          <div class="icon"><img src="./linkedin (1).png" /></div>
+          <div class="contact-info">
+            <h1>LinkedIn</h1>
+            <a href="https://www.linkedin.com/in/felix-idowu-4347a4268/"><h2>Felix Idowu</h2></a>
+          
+          </div>
+        </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    
+  </section>
+  <!-- End Contact Section -->
+
+  <!-- Footer -->
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand">
+        <h1><span>F</span>elix <span>I</span>dowu</h1>
+      </div>
+      <h2>Transforming Data into Decision</h2>
+      <div class="social-icon">
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/?size=100&id=NmJSSOvL7xYu&format=png&color=000000" /></a>
+        </div>
+        <div class="social-item">
+          <a href="#"><img src="./instagram (2).png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="#"><img src="./linkedin (1).png"/></a>
+        </div>
+        <div class="social-item">
+          <a href="#"><img src="./twitter.png" /></a>
+        </div>
+      </div>
+      <p>Copyright © 2024 Felix. All rights reserved</p>
+    </div>
+  </section>
+  <!-- End Footer -->
+  <script src="./app.js"></script>
+</body>
+
+</html>
